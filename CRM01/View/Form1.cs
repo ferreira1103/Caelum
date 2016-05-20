@@ -24,7 +24,7 @@ namespace CRM01
             //Evento para manipular banco de dados***Testando atualização GitHub
             try
             {
-            string connectionString = ConfigurationManager.ConnectionStrings["CS_ADO_NET"].ConnectionString;
+            string connectionString = ConfigurationManager.ConnectionStrings["CRM01"].ConnectionString;
             SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
             SqlCommand command = connection.CreateCommand();
