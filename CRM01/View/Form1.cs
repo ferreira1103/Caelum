@@ -21,7 +21,7 @@ namespace CRM01
 
         private void btnGravar_Click(object sender, EventArgs e)
         {
-            //Evento para manipular banco de dados
+            //Evento para manipular banco de dados***
             try
             {
             string connectionString = ConfigurationManager.ConnectionStrings["CS_ADO_NET"].ConnectionString;
