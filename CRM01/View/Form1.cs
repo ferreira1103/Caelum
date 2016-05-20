@@ -19,6 +19,7 @@ namespace CRM01
             InitializeComponent();
         }
 
+        //Método para gravar dados no banco de dados
         private void btnGravar_Click(object sender, EventArgs e)
         {
             //Evento para manipular banco de dados***Testando atualização GitHub
@@ -38,6 +39,7 @@ namespace CRM01
             command.ExecuteNonQuery();
             connection.Close();
             MessageBox.Show("Relacionamento registrado com sucesso");
+            LimparForm();
             }
             catch (Exception ex)
             {
@@ -45,9 +47,22 @@ namespace CRM01
             }
         }
 
+        //Método para encerrar a aplicação
         private void btnSair_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        //Método para limpar formulário
+        private void LimparForm()
+        {
+            txbNome.Text = string.Empty;
+            txbEndereco.Text = string.Empty;
+            txbComplemento.Text = string.Empty;
+            txbNascimento.Text = string.Empty;
+            txbTelefone.Text = string.Empty;
+            txbEmail.Text = string.Empty;
+            txbNome.Focus();
         }
     }
 }

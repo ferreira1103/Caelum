@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace CRM01
 {
-    static class Program
+    static class CRM
     {
         /// <summary>
         /// The main entry point for the application.
