@@ -17,6 +17,7 @@ namespace CRM01
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new frmCRM01());
+
         }
     }
 }

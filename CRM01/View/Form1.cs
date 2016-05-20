@@ -21,6 +21,8 @@ namespace CRM01
 
         private void btnGravar_Click(object sender, EventArgs e)
         {
+            try
+            {
             string connectionString = ConfigurationManager.ConnectionStrings["CS_ADO_NET"].ConnectionString;
             SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
@@ -35,6 +37,11 @@ namespace CRM01
             command.ExecuteNonQuery();
             connection.Close();
             MessageBox.Show("Relacionamento registrado com sucesso");
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         private void btnSair_Click(object sender, EventArgs e)
