@@ -106,7 +106,7 @@
             this.txbComplemento.Location = new System.Drawing.Point(46, 222);
             this.txbComplemento.Name = "txbComplemento";
             this.txbComplemento.Size = new System.Drawing.Size(291, 20);
-            this.txbComplemento.TabIndex = 6;
+            this.txbComplemento.TabIndex = 3;
             // 
             // lblEmail
             // 
@@ -122,7 +122,7 @@
             this.txbEmail.Location = new System.Drawing.Point(398, 222);
             this.txbEmail.Name = "txbEmail";
             this.txbEmail.Size = new System.Drawing.Size(110, 20);
-            this.txbEmail.TabIndex = 8;
+            this.txbEmail.TabIndex = 6;
             // 
             // lblTelefone
             // 
@@ -138,14 +138,14 @@
             this.txbTelefone.Location = new System.Drawing.Point(398, 142);
             this.txbTelefone.Name = "txbTelefone";
             this.txbTelefone.Size = new System.Drawing.Size(110, 20);
-            this.txbTelefone.TabIndex = 10;
+            this.txbTelefone.TabIndex = 5;
             // 
             // btnGravar
             // 
             this.btnGravar.Location = new System.Drawing.Point(46, 284);
             this.btnGravar.Name = "btnGravar";
             this.btnGravar.Size = new System.Drawing.Size(75, 23);
-            this.btnGravar.TabIndex = 12;
+            this.btnGravar.TabIndex = 7;
             this.btnGravar.Text = "Gravar";
             this.btnGravar.UseVisualStyleBackColor = true;
             this.btnGravar.Click += new System.EventHandler(this.btnGravar_Click);
@@ -155,7 +155,7 @@
             this.btnSair.Location = new System.Drawing.Point(398, 284);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(75, 23);
-            this.btnSair.TabIndex = 13;
+            this.btnSair.TabIndex = 8;
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = true;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
